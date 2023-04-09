@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-page</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <section class="signup">
+      <div class="container">
+        <div class="signup-content">
+            <div class="signup-image">
+                <figure>
+                  <img src="../images/png/kids.png" alt="sing up image" />
+
+                  <a class="signlink" href="./signup.html">Create an account</a>
+                </figure>   
+            </div>
+          <div class="signup-form">
+            <h2 class="form-title">Login</h2>
+            <form method="post" class="register-form" id="login-form">
+              <div class="form-group">
+                <label for="username"
+                  ><i class="fa-solid fa-user"></i></i
+                ></label>
+                <input
+                  type="text"
+                  name="name"
+                  id="username"
+                  placeholder="Your Name"
+                />
+              </div>
+              
+              <div class="form-group">
+                <label for="pass"><i class="fa-solid fa-lock"></i></label>
+                <input
+                  type="password"
+                  name="pass"
+                  id="pass"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="form-group form-button">
+                <input
+                  type="submit"
+                  name="signup"
+                  id="signup"
+                  class="form-submit"
+                  value="Log in"
+                />
+              </div>
+            <div id="result"></div>
+
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script src="../js/login.js"></script>
+</html>

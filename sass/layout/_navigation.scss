@@ -1,0 +1,36 @@
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+
+  &__link,
+  &__item-link {
+    color: #fff;
+  }
+
+  &__link {
+    user-select: none;
+    @include textStyle(3.2rem, 3.9rem, 400, normal, "Irish");
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.4rem;
+  }
+
+  &__item-link {
+    @include textStyle(2.4rem, 2.88rem, 400, normal, "Itim");
+  }
+
+  a {
+    &:hover {
+      opacity: 0.8;
+    }
+    &:active {
+      opacity: 0.5;
+    }
+  }
+}

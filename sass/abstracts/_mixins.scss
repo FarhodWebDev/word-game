@@ -1,0 +1,17 @@
+// MIXINS
+
+// FONT STYLE
+@mixin textStyle($size, $height, $weight, $space, $family) {
+ font-size: $size;
+ line-height: $height;
+ font-weight: $weight;
+ letter-spacing: $space;
+ font-family: $family;
+}
+
+// RESPONSIVE
+@mixin responsive($size) {
+ @media screen and (max-width: $size) {
+  @content;
+ }
+}

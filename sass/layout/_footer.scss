@@ -1,0 +1,19 @@
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  background-color: var(--primary-color);
+  padding: 2rem 0;
+  color: #fff;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    @include textStyle(3.2rem, 3.869rem, 400, 2.5px, "Irish");
+  }
+}

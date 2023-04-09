@@ -1,0 +1,28 @@
+body {
+  @include textStyle(1.6rem, 1.1, 400, normal, sans-serif);
+}
+
+h1 {
+  @include textStyle(4.2rem, 1.2, 700, normal, sans-serif);
+}
+
+h2 {
+  @include textStyle(3.6rem, 1, 500, normal, sans-serif);
+}
+
+h3 {
+  @include textStyle(3.6rem, 1.2, 400, normal, "Itim");
+  color: #bbd6b8;
+}
+
+h4 {
+  @include textStyle(2.8rem, 1, 500, normal, sans-serif);
+}
+
+h5 {
+  @include textStyle(2.4rem, 1, 400, normal, sans-serif);
+}
+
+h6 {
+  @include textStyle(2.2rem, 1, 400, normal, sans-serif);
+}

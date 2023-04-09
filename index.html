@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <script>
+   const isLogged = localStorage.getItem("isLogged");
+
+   if (isLogged !== "logged") {
+    window.location.pathname = "/login/";
+   }
+  </script>
+ </head>
+ <body>
+  <!-- HEADER -->
+  <header class="header">
+   <div class="container header__container">
+    <nav class="site-nav">
+     <a href="./" class="site-nav__link">WORDS</a>
+
+     <ul class="site-nav__list">
+      <li class="site-nav__item">
+       <a href="./" class="site-nav__item-link">Home</a>
+      </li>
+      <li class="site-nav__item">
+       <a href="./about/" class="site-nav__item-link">About</a>
+      </li>
+      <li class="site-nav__item">
+       <a href="./records/" class="site-nav__item-link">Records</a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <!-- /HEADER -->
+
+  <!-- MAIN -->
+  <main class="main">
+   <div class="gameplay" id="gameplay"></div>
+   <aside class="aside">
+    <div class="aside__container">
+     <!-- TIME -->
+     <div class="aside__time">
+      <h3 class="aside__time-title">TIME</h3>
+      <p class="aside__time-time time">00:12</p>
+     </div>
+     <!-- RECORDS -->
+     <div class="aside__records">
+      <h3 class="aside__records-title">RECORDS</h3>
+      <ul class="aside__records-list">
+       <li class="aside__records-item">
+        <img
+         src="./images/svg/trophy-icon.svg"
+         alt="trophy record icon"
+         width="32"
+         height="32"
+        />
+        <span class="score">----</span>
+       </li>
+      </ul>
+     </div>
+     <!-- GIFTS -->
+     <div class="aside__gifts">
+      <h3 class="aside__gifts-title">GIFTS</h3>
+      <span class="aside__gifts-gift">
+       <img
+        src="./images/svg/gift-fill.svg"
+        alt="gift score icon"
+        width="32"
+        height="32"
+       />
+       <p>+1</p>
+      </span>
+     </div>
+    </div>
+   </aside>
+  </main>
+  <!-- /MAIN -->
+
+  <!-- FOOTER -->
+  <footer class="footer">
+   <div class="container footer__container">
+    <h1 class="cpyright__title">TECHTRIO's WORD GAME</h1>
+   </div>
+  </footer>
+  <!-- /FOOTER -->
+
+  <!-- MODAL -->
+  <div class="modal" id="modal">
+   <div class="modal__body">
+    <h2 class="modal__title">Select mode:</h2>
+    <div class="modal__buttons">
+     <!-- EASY -->
+     <button
+      data-mode="easy"
+      class="modal__btn bg-light-blue disabled_btn"
+      id="mod_1"
+     >
+      <span class="shadow"></span>
+      <span class="edge"></span>
+      <span class="front text"> Easy </span>
+     </button>
+
+     <!-- MEDIUM -->
+     <button data-mode="medium" class="modal__btn bg-green" id="mod_2">
+      <span class="shadow"></span>
+      <span class="edge"></span>
+      <span class="front text"> Medium </span>
+     </button>
+
+     <!-- HARD -->
+     <button data-mode="hard" class="modal__btn bg-red" id="mod_3">
+      <span class="shadow"></span>
+      <span class="edge"></span>
+      <span class="front text"> Hard </span>
+     </button>
+    </div>
+
+    <div class="description" id="description">
+     <span>Adding score: 1</span>
+    </div>
+    <button class="modal__btn bg-red" id="play">
+     <span class="shadow"></span>
+     <span class="edge"></span>
+     <span class="front text"> Start </span>
+    </button>
+   </div>
+  </div>
+
+  <div class="overlay" id="overlay"></div>
+
+  <div class="restart hidden">
+   <div class="modal__body">
+    <h2 class="modal__title">Your Score : <span class="modtit"></span></h2>
+    <div class="modal__buttons">
+     <button class="modal__btn bg-red" data-mod="Hard" id="mod_3">
+      <span class="shadow"></span>
+      <span class="edge"></span>
+      <span id="restart" class="front text"> Restart </span>
+     </button>
+    </div>
+   </div>
+  </div>
+
+  <!-- FUCKING STYLE -->
+  <div class="area">
+   <ul class="circles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+   </ul>
+  </div>
+
+  <!-- JS -->
+  <script src="./js/app.js" type="module"></script>
+ </body>
+</html>

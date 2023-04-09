@@ -1,0 +1,9 @@
+// MAIN STYLES
+.main {
+ flex-grow: 1;
+ margin-top: 8.5rem;
+
+ .gameplay {
+  width: calc(100% - 30.5rem);
+ }
+}

@@ -1,0 +1,308 @@
+{
+ "easy": [
+  {
+   "eng": "home",
+   "uzb": "uy",
+   "id": 1
+  },
+  {
+   "eng": "book",
+   "uzb": "kitob",
+   "id": 2
+  },
+  {
+   "eng": "dog",
+   "uzb": "it",
+   "id": 3
+  },
+  {
+   "eng": "bag",
+   "uzb": "sumka",
+   "id": 4
+  },
+  {
+   "eng": "pen",
+   "uzb": "ruchka",
+   "id": 5
+  },
+  {
+   "eng": "pencil",
+   "uzb": "qalam",
+   "id": 6
+  },
+  {
+   "eng": "phone",
+   "uzb": "telefon",
+   "id": 7
+  },
+  {
+   "eng": "hair",
+   "uzb": "soch",
+   "id": 8
+  },
+  {
+   "eng": "hand",
+   "uzb": "qo'l",
+   "id": 9
+  },
+  {
+   "eng": "heart",
+   "uzb": "yurak",
+   "id": 10
+  },
+  {
+   "eng": "apple",
+   "uzb": "olma",
+   "id": 11
+  },
+  {
+   "eng": "cat",
+   "uzb": "mushuk",
+   "id": 12
+  },
+  {
+   "eng": "elephant",
+   "uzb": "fil",
+   "id": 13
+  },
+  {
+   "eng": "fish",
+   "uzb": "baliq",
+   "id": 14
+  },
+  {
+   "eng": "guitar",
+   "uzb": "gitara",
+   "id": 15
+  },
+  {
+   "eng": "red",
+   "uzb": "qizil",
+   "id": 16
+  },
+  {
+   "eng": "moon",
+   "uzb": "oy",
+   "id": 17
+  },
+  {
+   "eng": "yellow",
+   "uzb": "sariq",
+   "id": 18
+  },
+  {
+   "eng": "key",
+   "uzb": "kalit",
+   "id": 19
+  },
+  {
+   "eng": "lamp",
+   "uzb": "chiraq",
+   "id": 20
+  }
+ ],
+ "medium": [
+  {
+   "eng": "household",
+   "uzb": "oila",
+   "id": 1
+  },
+  {
+   "eng": "neck",
+   "uzb": "bo'yin",
+   "id": 2
+  },
+  {
+   "eng": "lip",
+   "uzb": "lab",
+   "id": 3
+  },
+  {
+   "eng": "bone",
+   "uzb": "suyak",
+   "id": 4
+  },
+  {
+   "eng": "knee",
+   "uzb": "tizza",
+   "id": 5
+  },
+  {
+   "eng": "cheek",
+   "uzb": "yonoq",
+   "id": 6
+  },
+  {
+   "eng": "tongue",
+   "uzb": "til",
+   "id": 7
+  },
+  {
+   "eng": "circle",
+   "uzb": "doira",
+   "id": 8
+  },
+  {
+   "eng": "edge",
+   "uzb": "qirra",
+   "id": 9
+  },
+  {
+   "eng": "cone",
+   "uzb": "konus",
+   "id": 10
+  },
+  {
+   "eng": "level",
+   "uzb": "daraja",
+   "id": 11
+  },
+  {
+   "eng": "fraction",
+   "uzb": "kasr",
+   "id": 12
+  },
+  {
+   "eng": "pace",
+   "uzb": "su'rat",
+   "id": 13
+  },
+  {
+   "eng": "square",
+   "uzb": "kvadrat",
+   "id": 14
+  },
+  {
+   "eng": "triangle",
+   "uzb": "uchburchal",
+   "id": 15
+  },
+  {
+   "eng": "steel",
+   "uzb": "temir",
+   "id": 16
+  },
+  {
+   "eng": "brick",
+   "uzb": "g'isht",
+   "id": 17
+  },
+  {
+   "eng": "daily",
+   "uzb": "kunlik",
+   "id": 18
+  },
+  {
+   "eng": "trail",
+   "uzb": "iz",
+   "id": 19
+  },
+  {
+   "eng": "boundary",
+   "uzb": "chegara",
+   "id": 20
+  }
+ ],
+ "hard": [
+  {
+   "eng": "guidelines",
+   "uzb": "ko'rsatmala",
+   "id": 1
+  },
+  {
+   "eng": "throughout",
+   "uzb": "davomida",
+   "id": 2
+  },
+  {
+   "eng": "enrollment",
+   "uzb": "ro'yxatga olish",
+   "id": 3
+  },
+  {
+   "eng": "campus",
+   "uzb": "hudud",
+   "id": 4
+  },
+  {
+   "eng": "scholars",
+   "uzb": "olimlar",
+   "id": 5
+  },
+  {
+   "eng": "destructive",
+   "uzb": "halokatli",
+   "id": 6
+  },
+  {
+   "eng": "prestigious",
+   "uzb": "nufuzli",
+   "id": 7
+  },
+  {
+   "eng": "pomegranate",
+   "uzb": "anor",
+   "id": 8
+  },
+  {
+   "eng": "techniques",
+   "uzb": "texnikalar",
+   "id": 9
+  },
+  {
+   "eng": "emphasis",
+   "uzb": "takidlash",
+   "id": 10
+  },
+  {
+   "eng": "despite",
+   "uzb": "qaramay",
+   "id": 11
+  },
+  {
+   "eng": "notable",
+   "uzb": "diqqatga sazovor",
+   "id": 12
+  },
+  {
+   "eng": "inevitable",
+   "uzb": "muqarrar",
+   "id": 13
+  },
+  {
+   "eng": "willing",
+   "uzb": "tayyor",
+   "id": 14
+  },
+  {
+   "eng": "resident",
+   "uzb": "mahalliy aholi",
+   "id": 15
+  },
+  {
+   "eng": "appointment",
+   "uzb": "tayinlash",
+   "id": 16
+  },
+  {
+   "eng": "disappointing",
+   "uzb": "umidsizlik",
+   "id": 17
+  },
+  {
+   "eng": "frightened",
+   "uzb": "qo'rqib ketgan",
+   "id": 18
+  },
+  {
+   "eng": "embarrassed",
+   "uzb": "xijolat tortmoq",
+   "id": 19
+  },
+  {
+   "eng": "relaxed",
+   "uzb": "xotirjam",
+   "id": 20
+  }
+ ]
+}

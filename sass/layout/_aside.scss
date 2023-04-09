@@ -1,0 +1,71 @@
+.aside {
+  width: 30rem;
+  position: absolute;
+  top: 7.9rem;
+  right: 0;
+  bottom: 0;
+  border-left: 5px solid var(--primary-color);
+  border-right: 5px solid var(--primary-color);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.178);
+  //   padding: 0 1.5rem;
+
+  &__time {
+    padding: 1.5rem;
+    border-bottom: 5px solid var(--primary-color);
+
+    &-title {
+      margin-bottom: 1.5rem;
+    }
+
+    &-time {
+      @include textStyle(3.2rem, 1.2, 400, normal, "Itim");
+      color: var(--secondary-color);
+    }
+  }
+
+  &__records {
+    padding: 1.5rem;
+    border-bottom: 5px solid var(--primary-color);
+
+    &-title {
+      margin-bottom: 1.5rem;
+    }
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+      gap: 1.9rem;
+
+      span {
+        @include textStyle(2.4rem, 1.2, 400, normal, "Itim");
+        color: var(--secondary-color);
+      }
+    }
+  }
+
+  &__gifts {
+    padding: 1.5rem;
+
+    &-title {
+      margin-bottom: 1.5rem;
+    }
+
+    &-gift {
+      display: flex;
+      align-items: center;
+      gap: 2.5rem;
+
+      p {
+        @include textStyle(2.4rem, 1.2, 400, normal, "Itim");
+        color: var(--secondary-color);
+      }
+    }
+  }
+}

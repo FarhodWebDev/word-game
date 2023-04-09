@@ -1,0 +1,144 @@
+//
+
+.modal {
+ width: 30rem;
+ //   height: 15rem;
+ background-color: #001d4d;
+ position: fixed;
+ z-index: 5;
+ top: 50%;
+ left: 50%;
+ transform: translateX(-50%) translateY(-50%);
+ border: none;
+ border-radius: 10px;
+ padding: 3rem 1.5rem;
+
+ &__body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ }
+
+ &__title {
+  margin-bottom: 2rem;
+  color: var(--text-color);
+ }
+
+ &__btn {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  touch-action: manipulation;
+
+  &:hover {
+   filter: brightness(110%);
+  }
+
+  &:hover .front {
+   transform: translateY(-6px);
+   transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+  }
+
+  &:active .front {
+   transform: translateY(-2px);
+   transition: transform 34ms;
+  }
+
+  &:hover .shadow {
+   transform: translateY(4px);
+   transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+  }
+
+  &:active .shadow {
+   transform: translateY(1px);
+   transition: transform 34ms;
+  }
+
+  &:focus:not(:focus-visible) {
+   outline: none;
+  }
+ }
+
+ .disabled_btn {
+  .front {
+   transform: translateY(-2px);
+   transition: transform 34ms;
+  }
+  .shadow {
+   transform: translateY(1px);
+   transition: transform 34ms;
+  }
+ }
+
+ .shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+ }
+
+ .edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+   to left,
+   hsl(340deg 100% 16%) 0%,
+   hsl(340deg 100% 32%) 8%,
+   hsl(340deg 100% 32%) 92%,
+   hsl(340deg 100% 16%) 100%
+  );
+ }
+
+ .front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(345deg 100% 47%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+ }
+}
+
+.hidden {
+ display: none;
+}
+.overlay {
+ position: fixed;
+ z-index: 3;
+ width: 100%;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ background: rgba(0, 0, 0, 0.527);
+ backdrop-filter: blur(2px);
+}
+
+.description {
+ color: #fff;
+ margin-top: 2rem;
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+}

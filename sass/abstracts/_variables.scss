@@ -1,0 +1,27 @@
+// FONTS
+/* itim-regular - latin */
+@font-face {
+ font-display: swap;
+ font-family: "Itim";
+ font-style: normal;
+ font-weight: 400;
+ src: url("../fonts/itim/itim-v10-latin-regular.woff2") format("woff2"),
+  url("../fonts/itim/itim-v10-latin-regular.woff") format("woff");
+}
+
+/* irish-grover-regular - latin */
+@font-face {
+ font-display: swap;
+ font-family: "Irish";
+ font-style: normal;
+ font-weight: 400;
+ src: url("../fonts/irish/irish-grover-v23-latin-regular.woff2") format("woff2"),
+  url("../fonts/irish/irish-grover-v23-latin-regular.woff") format("woff");
+}
+
+// COLORS
+:root {
+ --primary-color: #00235b;
+ --secondary-color: #ffffff;
+ --text-color: #ecf2ff;
+}
